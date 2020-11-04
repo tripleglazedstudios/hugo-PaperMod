@@ -1,0 +1,11 @@
+stackbitVersion: ~0.3.0
+ssgName: hugo
+buildCommand: hugo # build command that builds static site
+publishDir: public # folder with the generated static site files
+staticDir: static # folder with files that are copied to publishDir as is
+uploadDir: media # folder with media files, relative to staticDir
+pagesDir: content # folder with markdown page files
+dataDir: data # folder with data files (yaml, json, toml)
+excludePages:
+    - images/** # exclude theme images
+    - .github/** # exclude github related ro theme
